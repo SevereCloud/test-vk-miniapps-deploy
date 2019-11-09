@@ -6,4 +6,5 @@ install:
   - npm install @vkontakte/vk-miniapps-deploy -g
 script:
   - node -p -e 'process.stdin.isTTY'
+  - node -p -e 'process.stdout.isTTY'
   - vk-miniapps-deploy
